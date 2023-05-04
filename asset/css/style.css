@@ -1,0 +1,244 @@
+
+@font-face {
+    font-family: "iranyekan";
+    src: url("../fonts/uiranyekan/eot/iranyekanwebregular.eot?#"),
+        url("../fonts/iranyekan/ttf/iranyekanwebregular.ttf") format('truetype'),
+        url("../fonts/iranyekan/woff/iranyekanwebregular.woff") format('woff'),
+        url("../fonts/iranyekan/svg/iranyekanwebregular.svg") format('svg');
+}
+
+@font-face {
+    font-family: "iranyekan_numbers";
+    src: url("../fonts/fonts/iranyekan_numbers/eot/iranyekanwebregular(fanum).eot?#"),
+        url("../fonts/iranyekan_numbers/ttf/iranyekanwebregular(fanum).ttf") format('truetype'),
+        url("../fonts/iranyekan_numbers/woff/iranyekanwebregular(fanum).woff") format('woff'),
+        url("../fonts/iranyekan_numbers/svg/iranyekanwebregular(fanum).svg") format('svg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    background-color: #f3f4f6;
+    transition: 0.33s all 0s ease-out;
+    font-family: 'iranyekan_numbers', 'iranyekan';
+}
+
+header {
+    top: 0;
+    z-index: 10;
+    position: sticky;
+    padding: 20px 40px;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.img-heder {
+    width: 12%;
+}
+
+.img-heder img {
+    width: 100%;
+}
+
+.space-between {
+    gap: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+
+/* maim */
+.bakery_slider {
+    width: 100%;
+    height: 500px;
+    padding: 9rem;
+    text-align: center;
+    background-color: #fff;
+    background-size: auto 100%;
+    background-position: center center;
+    background-image: url(../img/bakery.webp);
+}
+
+.bakery_slider h1 {
+    margin-bottom: 1.5rem;
+}
+
+/* container */
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* end container */
+/* grid */
+.grid {
+    gap: 15px;
+    row-gap: 0;
+    display: grid;
+    padding: 30px;
+    justify-content: center;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+/* end grid */
+/* box grid */
+
+
+.a_null a:link,
+.a_null a:visited,
+.a_null a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.bakery_item {
+    padding: 16px;
+    gap: 1rem;
+    margin-top: 25px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px #eee;
+}
+
+.svg-botton:hover {
+    background-color: #009f7f;
+    border-color: #009f7f;
+}
+
+.svg-botton:hover svg {
+    color: white;
+}
+
+/* end box grid */
+/* flex-dr */
+
+.flex-dr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clear {
+    clear: both;
+}
+
+.matn {
+    font-weight: bold;
+}
+
+/* end flex-dr */
+/* bakery_item_price */
+.bakery_item_price {
+    gap: 18px;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.color-g {
+    color: #888;
+    font-size: 14px;
+}
+
+/* end bakery_item_price */
+/* darsd */
+.darsd {
+    color: #fff;
+    font-size: 13px;
+    padding: 8px;
+    border-radius: 0.4em;
+    background-color: #009f7f;
+    height: 30px;
+}
+
+/* end darsd */
+/*svg-botton" */
+.svg-botton {
+    cursor: pointer;
+    float: right;
+    border-radius: 0.5em;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-size: 60%;
+}
+
+/*end svg-botton" */
+/* button-sa */
+.button-sa {
+    display: flex;
+    padding: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button-sa button {
+    height: 40px;
+    color: #fff;
+    display: flex;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 9px 16px;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #009f7f;
+    background-color: #009f7f;
+}
+
+/* end button-sa */
+/*end maim */
+/* media */
+
+
+@media screen and (max-width: 1260px) {
+
+    /* grid */
+    .grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+    /* grid */
+}
+
+@media screen and (max-width: 995px) {
+
+    /* grid */
+    .grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    /* grid */
+
+}
+
+@media screen and (max-width: 675px) {
+     /* grid */
+     .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    /* grid */
+}
+
+@media screen and (max-width: 500px) {
+    /* grid */
+    .grid {
+        align-items: center;
+       grid-template-columns: repeat(1, minmax(0, 1fr));
+   }
+   /* grid */
+}
+
+
+
+/* end media */

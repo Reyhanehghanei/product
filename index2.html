@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/css/style2.css">
+    <link rel="stylesheet" href="asset/fonts/fontawesome.css">
+</head>
+
+<body>
+
+    <script>
+        const myCode =myCode;
+        document.getElementById("showCodeButton")("click", function () {
+            alert('has');
+        });
+    </script>
+    <!--sidebar  -->
+    <main class="basket_page">
+        <div class="min-muno">
+            <div class="sidebar">
+                <!-- icon-ba -->
+                <div class="icon-ba"></div>
+                <div class="text-center">سبد خرید شما خالی است.</div>
+                <!-- icon-ba -->
+                <!-- basket_calculation -->
+                <div class="basket_calculation">
+                    <div class="basket_calc_item">
+                        <div class="basket_calc_title">جمع کل</div>
+                        <div class="basket_calc_info">0 هزار تومان</div>
+                    </div>
+                    <div class="basket_calc_item">
+                        <div class="basket_calc_title">مالیات</div>
+                        <div class="basket_calc_info">0 هزار تومان</div>
+                    </div>
+                    <div class="basket_calc_item">
+                        <div class="basket_calc_title">تخمین هزینه ارسال</div>
+                        <div class="basket_calc_info">0 هزار تومان</div>
+                    </div>
+                    <button class="basket_calc_button width100">بررسی موجودی</button>
+                </div>
+                <!-- end basket_calculation -->
+            </div>
+            <!--sidebar  -->
+            <!-- basket_main_item -->
+            <div class="mino">
+                <div class="basket_main_item">
+                    <div class="basket-main">
+                        <div class="flex number ">
+                            <span class="span-number">1</span>
+                            <div>شماره تماس</div>
+                        </div>
+                        <div class="plus showCodeButton" id="showCodeButton">
+                            <span>+</span>اضافه کردن
+                        </div>
+                    </div>
+                    <div class="input-box ">
+                        <input class="width100" type="text" placeholder="شماره همراه خودرا وارد کنید.">
+                    </div>
+                </div>
+                <div class="basket_main_item">
+                    <div class="basket-main">
+                        <div class="flex number ">
+                            <span class="span-number">2</span>
+                            <div>نام</div>
+                        </div>
+                    </div>
+                    <div class="input-box ">
+                        <input class="width100" type="text" placeholder="نام همراه خودرا وارد کنید.">
+                    </div>
+                </div>
+                <div class="basket_main_item">
+                    <div class="basket-main">
+                        <div class="flex number ">
+                            <span class="span-number">3</span>
+                            <div>آدرس</div>
+                        </div>
+                        <div class="plus">
+                            <span>+</span>اضافه کردن
+                        </div>
+                    </div>
+                    <div class="buutn-box">
+                        <div class="buttn-a">هیچ آدرسی پیدا نشد </div>
+                    </div>
+                </div>
+                <div class="basket_main_item">
+                    <div class="basket-main">
+                        <div class="flex number ">
+                            <span class="span-number">4</span>
+                            <div>شماره تماس</div>
+                        </div>
+                        <div class="plus" id="showCodeButton">
+                            <span>+</span>اضافه کردن
+                        </div>
+                    </div>
+                    <div class="buutn-box">
+                        <div class="buttn-a">هیچ آدرسی پیدا نشد </div>
+                    </div>
+                </div>
+                <!--end basket_main_item -->
+                <!--box -->
+                <div id="box">
+                    <div class="flex flex-box">
+                        <div>
+                            <h4>اضافه کردن شماره جدید</h4>
+                        </div>
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-clipboard-x-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z" />
+                                <path
+                                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm4 7.793 1.146-1.147a.5.5 0 1 1 .708.708L8.707 10l1.147 1.146a.5.5 0 0 1-.708.708L8 10.707l-1.146 1.147a.5.5 0 0 1-.708-.708L7.293 10 6.146 8.854a.5.5 0 1 1 .708-.708L8 9.293Z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="flex-col">
+                        <form action="">
+                            <input class="w-100 input-i" placeholder="شماره همراه خود را وارد کنید" type="tel">
+                            <input type="submit" class="w-100 submit-i" value="اضافه کردن">
+                        </form>
+                    </div>
+                </div>
+                <!--end box  -->
+            </div>
+    </main>
+    <script src="asset/js/jquery-3.6.0.min.js"></script>
+</body>
+
+</html>
