@@ -240,7 +240,27 @@ header {
     justify-content: space-between;
 }
 
+/* silaeder */
+.silaeder {
+    width: 100%;
+    min-height: 10rem;
+    border: 1px solid red;
+}
 
+.masoud{
+    display: block;
+    border-radius: 5px;
+
+}
+
+.masoud img{
+    max-width: 100%;
+    height: 12rem;
+    height: 20%;
+
+}
+
+/* end silaeder */
 /* maim */
 .bakery_slider {
     width: 100%;
