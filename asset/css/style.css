@@ -9,6 +9,7 @@ body {
     background-color: #f3f4f6;
     transition: 0.33s all 0s ease-out;
 }
+
 /* header */
 
 header {
@@ -173,6 +174,7 @@ header select {
     margin-top: 1rem;
     text-align: center;
 }
+
 /* form min header */
 .box-shadow {
     gap: 2px;
@@ -182,6 +184,7 @@ header select {
     background-color: #eee;
     box-shadow: 0 30px 50px #eee;
 }
+
 .box-shadow input {
     border: 0;
     outline: 0;
@@ -192,6 +195,7 @@ header select {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
+
 .box-shadow button {
     width: 83px;
     height: 40px;
@@ -205,6 +209,7 @@ header select {
     border: 2px solid #009f7f;
     background-color: #009f7f;
 }
+
 .felx {
     display: flex;
     flex-wrap: wrap;
@@ -244,20 +249,32 @@ header {
 .silaeder {
     width: 100%;
     min-height: 10rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
-.masoud{
+.slid {
     display: block;
-    border-radius: 5px;
-
+    width: 175px;
+    text-align: center;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 0.4em;
 }
 
-.masoud img{
-    max-width: 100%;
-    height: 12rem;
-    height: 20%;
+.slid img {
+    height: 100px;
+    width: auto !important;
+    margin-right: auto;
+    margin-left: auto;
+}
 
+.owl-th{
+    width: 93% !important;
+    margin: 50px auto;
+}
+
+.m-t5 {
+    margin-top: 5px;
 }
 
 /* end silaeder */
@@ -324,7 +341,8 @@ a:visited {
     background-color: #009f7f;
     border-color: #009f7f;
 }
-.svg-botton:hover svg{
+
+.svg-botton:hover svg {
     color: white;
 }
 
@@ -402,6 +420,7 @@ a:visited {
     border: 2px solid #009f7f;
     background-color: #009f7f;
 }
+
 /* end button-sa */
 /*end maim */
 /* media */
