@@ -202,6 +202,10 @@ header select {
     /* border: 1px solid rebeccapurple; */
 }
 
+.basket_page {
+    margin-top: 10rem;
+}
+
 /* sidebar */
 .sidebar {
     width: 300px;
@@ -556,9 +560,11 @@ textarea:focus {
     .contact_column input {
         width: 21rem;
     }
+
     .contact_column {
         justify-content: center;
     }
+
     .title-mo input {
         width: 44.5rem;
     }
@@ -568,5 +574,39 @@ textarea:focus {
     /* end basket_page */
 
 }
+
+/* media */
+
+@media screen and (max-width: 910px) {
+
+    .min-muno {
+        gap: 0;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    /* sidbar media */
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .icon-ba {
+        width: 96px;
+        height: 96px;
+        margin: auto;
+        background-size: 80%;
+    }
+
+    /* end sidbar media */
+    /*min media  */
+    .mino {
+        width: calc(100% - 0px);
+    }
+
+    /* end min media */
+}
+
+/* end media
 
 /* end media */
